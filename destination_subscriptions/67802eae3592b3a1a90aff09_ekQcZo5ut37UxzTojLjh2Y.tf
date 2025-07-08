@@ -15,8 +15,9 @@ resource "segment_destination_subscription" "id-67802eae3592b3a1a90aff09_ekQcZo5
     data = {
       "@path" = "$."
     }
-    method = "POST"
-    url    = "https://webhook.site/da682463-9f44-4dd8-a3e4-f34eb6a8f883"
+    enable_batching = false
+    method          = "POST"
+    url             = "https://webhook.site/da682463-9f44-4dd8-a3e4-f34eb6a8f883"
   })
-  trigger = "event = \"Product List Viewed\""
+  trigger = "event = \"Product Viewed\""
 }
