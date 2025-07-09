@@ -18,7 +18,7 @@ resource "segment_destination_subscription" "id-67802eae3592b3a1a90aff09_81PNjzV
     }
     enable_batching = false
     method          = "POST"
-    url             = "https://webhook.site/db62c96b-eb63-4749-8cda-b9aa24f990d7"
+    url             = "https://webhook.site/33e4eaa9-68b8-4ecb-a8eb-23dbcb569f41"
   })
   trigger = "event = \"Loop Event\""
 }
