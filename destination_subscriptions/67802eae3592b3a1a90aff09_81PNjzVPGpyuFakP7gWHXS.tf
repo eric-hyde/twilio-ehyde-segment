@@ -16,7 +16,7 @@ resource "segment_destination_subscription" "id-67802eae3592b3a1a90aff09_81PNjzV
     data = {
       "@path" = "$."
     }
-    enable_batching = true
+    enable_batching = false
     method          = "POST"
     url             = "https://webhook.site/db62c96b-eb63-4749-8cda-b9aa24f990d7"
   })
