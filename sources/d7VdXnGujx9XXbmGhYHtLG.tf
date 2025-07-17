@@ -14,7 +14,7 @@ resource "segment_source" "id-d7VdXnGujx9XXbmGhYHtLG" {
   metadata = {
     id = "iUM16Md8P2"
   }
-  name     = "i'm gonna delete this"
+  name     = "A very Real Source "
   settings = jsonencode({})
   slug     = "im-gonna-delete-this"
 }
