@@ -6,7 +6,7 @@ import {
 resource "segment_destination_subscription" "id-67dc2eb6c0f9140891455bd5_wQeNXC4KuTR2BHV4qzuPrf" {
   action_id            = "nFPnRozhz1mh4Gbx4MLvT5"
   destination_id       = "67dc2eb6c0f9140891455bd5"
-  enabled              = false
+  enabled              = true
   model_id             = null
   name                 = "Send"
   reverse_etl_schedule = null
@@ -18,6 +18,7 @@ resource "segment_destination_subscription" "id-67dc2eb6c0f9140891455bd5_wQeNXC4
     }
     enable_batching = false
     method          = "POST"
+    url             = "https://webhook.site/6c180df1-310a-4e04-8ccf-61983c82bb57"
   })
-  trigger = "event = \"\""
+  trigger = "type = \"identify\""
 }
