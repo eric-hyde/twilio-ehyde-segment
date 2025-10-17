@@ -6,7 +6,7 @@ import {
 resource "segment_destination_subscription" "id-686c2ff419ea12f1b25d7e39_6DWUoWQAK3Gwxgx6BUZ7Zr" {
   action_id            = "ja2fMtPLyGVf5gRvcPg2Km"
   destination_id       = "686c2ff419ea12f1b25d7e39"
-  enabled              = false
+  enabled              = true
   model_id             = null
   name                 = "Send - Profile exits audience"
   reverse_etl_schedule = null
