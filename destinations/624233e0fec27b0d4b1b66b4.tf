@@ -23,7 +23,7 @@ resource "segment_destination" "id-624233e0fec27b0d4b1b66b4" {
   }
   name = "amplitude"
   settings = jsonencode({
-    apiKey                           = "••••••••••9a03"
+    apiKey                           = "••••••••••adce"
     appendFieldsToEventProps         = {}
     batchEvents                      = false
     deviceIdFromUrlParam             = false
