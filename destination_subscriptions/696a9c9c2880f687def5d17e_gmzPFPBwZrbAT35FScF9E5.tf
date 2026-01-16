@@ -6,7 +6,7 @@ import {
 resource "segment_destination_subscription" "id-696a9c9c2880f687def5d17e_gmzPFPBwZrbAT35FScF9E5" {
   action_id            = "2Xg7PHV6kQDWdS8j2da66P"
   destination_id       = "696a9c9c2880f687def5d17e"
-  enabled              = true
+  enabled              = false
   model_id             = null
   name                 = "Audience Entered (SFTP) Andrew Hoyle test"
   reverse_etl_schedule = null
