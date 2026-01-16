@@ -25,5 +25,5 @@ resource "segment_destination_subscription" "id-696ab35a0b8e60d2188deeec_tbnzDsP
     }
     sftp_password = "sdfsdf"
   })
-  trigger = "event = \"Audience Entered\""
+  trigger = "event = \"Audience Entered\" or event = \"something else!!!!!\""
 }
