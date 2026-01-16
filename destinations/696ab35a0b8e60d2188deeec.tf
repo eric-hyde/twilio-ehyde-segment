@@ -12,7 +12,14 @@ resource "segment_destination" "id-696ab35a0b8e60d2188deeec" {
     region_endpoints  = ["EU", "US"]
     supported_regions = ["us-west-2", "eu-west-1"]
   }
-  name      = "andrew test LR"
-  settings  = jsonencode({})
+  name = "Andrew Hoyle LR"
+  settings = jsonencode({
+    dynamicAuthSettings = {
+      configId = "696ab35a0b8e60d2188deeec"
+      oauth = {
+        type = "noAuth"
+      }
+    }
+  })
   source_id = "kqy6SqXM24c3mPc3XFgdgg"
 }
