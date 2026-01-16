@@ -14,8 +14,8 @@ resource "segment_destination" "id-696a9f5257ab588668ee319a" {
   }
   name = "Andrew Hoyle TTD streaming"
   settings = jsonencode({
-    advertiser_id = ""
-    auth_token    = ""
+    advertiser_id = "adsg"
+    auth_token    = "••••••••••"
     dynamicAuthSettings = {
       configId = "696a9f5257ab588668ee319a"
       oauth = {
