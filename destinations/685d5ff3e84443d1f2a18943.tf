@@ -4,7 +4,7 @@ import {
 }
 
 resource "segment_destination" "id-685d5ff3e84443d1f2a18943" {
-  enabled = true
+  enabled = false
   metadata = {
     contacts          = null
     id                = "614a3c7d791c91c41bae7599"
@@ -16,6 +16,9 @@ resource "segment_destination" "id-685d5ff3e84443d1f2a18943" {
   settings = jsonencode({
     dynamicAuthSettings = {
       configId = "685d5ff3e84443d1f2a18943"
+      oauth = {
+        type = "noAuth"
+      }
     }
     sharedSecret = ""
   })
