@@ -20,10 +20,13 @@ resource "segment_destination_subscription" "id-696a9c9c2880f687def5d17e_gmzPFPB
     filename = {
       "@template" = "{{properties.audience_key}}_PII.csv"
     }
-    sftp_folder_path = {
-      "@template" = "/uploads/"
+    identifier_data = {
+      anonyID = {
+        "@path" = "$.anonymousId"
+      }
     }
-    sftp_password = "sdfsdfs"
+    sftp_folder_path = "/uploads/myStuffyStuff"
+    sftp_password    = "sdfsdfs"
   })
   trigger = "event = \"Audience Entered\""
 }
