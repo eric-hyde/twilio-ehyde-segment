@@ -12,7 +12,7 @@ resource "segment_destination" "id-696a9f5257ab588668ee319a" {
     region_endpoints  = ["US"]
     supported_regions = ["us-west-2", "eu-west-1"]
   }
-  name = "Andrew Hoyle TTD streaming"
+  name = "Andrew Hoyle TTD streaming (why can I make this?)"
   settings = jsonencode({
     advertiser_id = "adsg"
     auth_token    = "••••••••••"
