@@ -15,6 +15,9 @@ resource "segment_destination_subscription" "id-697b890cb9842c4d12afe774_3TvBYpM
     data = {
       "@path" = "$."
     }
+    headers = {
+      X-Workflow-Api-Key = "retool_wk_1e41a2dde5c1412b8c"
+    }
     method = "POST"
     url    = "https://api.retool.com/v1/workflows/178b2337-07f8-4f29-b80f-ff0062b52e1a/startTrigger"
   })
