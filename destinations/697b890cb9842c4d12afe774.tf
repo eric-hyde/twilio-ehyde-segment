@@ -14,7 +14,13 @@ resource "segment_destination" "id-697b890cb9842c4d12afe774" {
   }
   name = "Retool Workflow 1 - send email"
   settings = jsonencode({
-    sharedSecret = ""
+    dynamicAuthSettings = {
+      configId = "697b890cb9842c4d12afe774"
+      oauth = {
+        type = "noAuth"
+      }
+    }
+    sharedSecret = "••••••••••6354"
   })
   source_id = "ccVwQowdgAqvEgfWw5kc5K"
 }
